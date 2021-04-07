@@ -1,0 +1,186 @@
+
+body {
+	background-color: #e1e1e1;
+}
+
+p{
+	display: inline;
+	
+}
+/* Estilo del encabezado*/
+
+#logoabeja{
+	position: absolute;
+	  top:0;
+     bottom:0;
+     left:0;
+     right:0;
+	height: 100px;
+	width: 100px;
+	margin: 25px 0px 0px 75px;
+}
+
+.logo{	
+	border: solid 3px;
+	border-radius:100%;
+}
+
+
+#encabezado {
+	position: relative;
+	 top:0;
+     bottom:0;
+     left:0;
+     right: 0;	 
+    height: 225px;
+	width: 1300px;
+	font-size: 28px;
+	margin: 75px 10px 10px 10px;
+	border: 3px solid black;
+	background-image: url("HexaGlass.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+	margin: 50px 0px 20px 525px;
+	font-family: Century Gothic, sans-serif;
+	
+}
+
+h5{
+	margin: 0px 0px 0px 600px;
+	font-family: 'Courier New', Courier, monospace;
+	font-style: italic;
+}
+
+/* Estilo del menu*/
+
+a {
+	text-decoration: none;
+	color: black ;
+}
+
+.menu{
+	position: absolute;
+	  top:0;
+      bottom: 0;
+      right:0;
+      left:0;
+	margin: 0px 10px 10px 10px;
+	height: 60px;	
+	width: 1350px;
+	background-image: url("broken.jpg");
+}
+
+.menu ul li {	
+	display: inline;
+	float: right;
+    width: 170px;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    background-color: #d4b632;
+}
+
+/*Estilo pagina en general*/
+#cuerpo{
+	position:absolute;
+      top:100;
+      bottom:100;
+      right:100;
+      left:100;    
+	width: 1300px;
+	margin: 10px 10px 10px 10px;
+	font-size: 25px;
+	font-family: Century Gothic, sans-serif;
+	background-color: #d4b632;
+	line-height: 2;
+	}
+.cuerpo01{
+	margin: 50px 50px 50px 50px;
+    width: 1200px;
+	
+}
+/* Estilo pagina Novedades y servicios*/
+
+.polaroid {
+  float: left;
+  margin: 10px 10px 10px 10px;
+  width: 18%;
+  background-color: white; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 5px;
+
+}
+
+.container {
+  text-align: center;
+  padding: 5px 5px;
+}
+
+
+/* Estilo pagina contacto*/
+
+
+#mapa {
+	float: left;
+	margin: 10px 10px 10px 10px;	
+}
+.datos div p {	
+	float: right;
+	line-height:2;	
+	margin: 20px 200px 10px 10px;
+	width: 400px;
+}
+
+#what{
+	width:25px;
+	height:20px;
+	border-radius:5px;
+}
+
+#telefono{
+	width:25px;
+	height:20px;	
+	border-radius:100%;	
+}
+#carta{
+	width:25px;
+	height:20px;
+	border-radius:5px;	
+}
+
+#reloj{
+	width:25px;
+	height:20px;	
+	border-radius:100%;	
+}
+
+/* Estilo de La empresa*/
+
+.imagenes{
+	width:100px;
+	height:100px;
+
+}
+
+
+/* Estilo de pie de pagina*/
+#pie {
+	position: absolute;
+	  top:0;
+      bottom: 0;
+      right:0;
+      left:0;
+	height: 40px;
+	width: 1350px;
+	margin: 1000px 10px 10px 10px;
+	background-image: url("broken.jpg");
+	font-family: Century Gothic, sans-serif;
+}
+
+.pies{
+	width: 20px;
+	display: inline;
+	text-align: center;	
+}
